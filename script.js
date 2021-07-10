@@ -3,6 +3,7 @@ var num = [1,2,3,4];
 var value = 5;
 var index = 0;
 
+
 // function pushNumber(num, value) {
 // 	for(let i = num.length; i > 0; i--)
 // 		num[i] = num[i-1]
@@ -60,3 +61,17 @@ var index = 0;
 // 	}
 // 	return newArr;
 // }
+
+
+// var num2 = [];
+
+// var reverseArrayInPlace = function(num){
+
+//   var numLength = num.length
+//   for (i = 0; i < numLength; i++) {
+//     num2.push(num.pop())
+//     num.push(num2.shift())
+//   }
+// }
+
+// reverseArrayInPlace(num)
