@@ -36,7 +36,7 @@ function rSigma(num) {
     return 0
 }
 
-console.log(rSigma(5))
+console.log(rSigma(3))
 
 function rFact(num) {
     if(num > 1) {
@@ -45,4 +45,4 @@ function rFact(num) {
     return 1
 }
 
-console.log(rFact(6))
+console.log(rFact(4))
