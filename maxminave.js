@@ -33,7 +33,7 @@ singlyll.contain();
 
 console.log(singlyll);
 
-maxminaverage() {
+maxminaverage()
     var sum = 0;
     var max = this.head.value;
     var min = this.head.value;
@@ -51,7 +51,6 @@ maxminaverage() {
             }
             return '${max}, ${min}, average:${sum/this.length()}'
         }
-}
 
 var x = maxminaverage(singlyll);
 
